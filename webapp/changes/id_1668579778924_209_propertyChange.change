@@ -1,0 +1,41 @@
+{
+    "fileName": "id_1668579778924_209_propertyChange",
+    "fileType": "change",
+    "changeType": "propertyChange",
+    "moduleName": "",
+    "reference": "zeinvht",
+    "packageName": "",
+    "content": {
+        "property": "showFilterConfiguration",
+        "newValue": true
+    },
+    "selector": {
+        "id": "zeinvht::sap.suite.ui.generic.template.ListReport.view.ListReport::Header--listReportFilter",
+        "idIsLocal": false,
+        "type": "sap.ui.comp.smartfilterbar.SmartFilterBar"
+    },
+    "layer": "CUSTOMER_BASE",
+    "texts": {},
+    "namespace": "apps/zeinvht/changes/",
+    "projectId": "",
+    "creation": 1668579778924,
+    "originalLanguage": "",
+    "support": {
+        "generator": "changeUtils: SAPFioriTools",
+        "service": "",
+        "user": "",
+        "sapui5Version": "1.96.1",
+        "sourceChangeFileName": "",
+        "compositeCommand": ""
+    },
+    "oDataInformation": {},
+    "dependentSelector": {},
+    "validAppVersions": {
+        "from": "0.0.1",
+        "to": "0.0.1",
+        "creation": "0.0.1"
+    },
+    "jsOnly": false,
+    "variantReference": "",
+    "appDescriptorChange": false
+}

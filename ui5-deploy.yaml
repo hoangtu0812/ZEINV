@@ -1,0 +1,22 @@
+# yaml-language-server: $schema=https://sap.github.io/ui5-tooling/schema/ui5.yaml.json
+
+specVersion: "2.5"
+metadata:
+  name: zeinvht
+type: application
+builder:
+  resources:
+    excludes:
+      - /test/**
+      - /localService/**
+  customTasks:
+    - name: deploy-to-abap
+      afterTask: generateCachebusterInfo
+      configuration:
+        target:
+          url: http://s4training.citek.vn:8085
+        app:
+          name: ZEINV_HT
+          description: Cloud E-Invoice Demo
+          package: zpk_training_ht
+          transport: S19K900002
