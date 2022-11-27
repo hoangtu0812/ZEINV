@@ -73,12 +73,12 @@
                                 "Actions": {
                                     "onIssue": {
                                         "id" : "btn-issue",
-                                        "text" : "Issue",
+                                        "text" : "Issue JS",
                                         "press" : "onIssue"
                                     },
                                     "onPrint": {
                                         "id" : "btn-print",
-                                        "text" : "Print",
+                                        "text" : "Print JS",
                                         "press" : "onPrint"
                                     }
                                 }
