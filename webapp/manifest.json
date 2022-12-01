@@ -80,6 +80,12 @@
                                         "id" : "btn-print",
                                         "text" : "Print JS",
                                         "press" : "onPrint"
+                                    },
+                                    "onPDF" : {
+                                        "id" : "btn-pdf",
+                                        "text" : "PDF",
+                                        "press": "onPDF",
+                                        "sap-icon":"//pdf-reader"
                                     }
                                 }
                             }
